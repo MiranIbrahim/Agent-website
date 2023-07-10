@@ -1,0 +1,67 @@
+/* shared style */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.primary{
+    color: red;
+    font-weight: bold;
+    
+}
+
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+/* NavBar */
+
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* Banner */
+
+.banner-container{
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    padding:12px;
+    border: none;
+}
